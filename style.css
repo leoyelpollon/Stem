@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #424141;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.Vid{
+    height: 60px;
+    width: 60px;
+}
+
+.headerN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerN{
+    height: 60vh !important;
+    background: url(img/PortadaN.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.headerH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerH{
+    height: 60vh !important;
+    background: url(img/portadaH.webp) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18x;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover{
+    background:none
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px ;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background:#9c27b0 ;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #171717;
+}
+
+.price{
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+    .title{
+        margin-bottom: 0;
+        font-size:40px;
+    }
+
+    .sau {
+        height: 120hv;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
+/* Varios*/
+
+.makunga {
+    font-size:40px;
+    background-color: #171717;
+    color: #bda310;
+}
+
+.makunga2 {
+    background-color: #171717;
+    color: #bdac10;
+    font-size: 20px;
+}
+
+.FueraServicio{
+    padding-bottom: 100px;
+    color: #101010;
+}
+
+/* Varios*/
+
+/* CONTACTO*/
+
+#Cuerpo{
+    margin: 0;
+    font-family: sans-serif;
+    color: #444;
+    background-color: #222;
+}
+
+#form{
+    background-color: transparent;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size:15px;
+}
+
+#form h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    font: weight 100px;
+    font-size: 1.3em;
+    padding:10px;
+}
+
+#form .form_input {
+    padding: 6px 20px;
+}
+
+#form input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 15px #0003;
+    background-color: transparent;
+    border-radius: 4px;color: #eee;
+    color: yellow;
+}
+
+#form textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 102px;
+    font-family: sans-serif;
+}
+label {
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+.checkbox{
+    width: auto;
+    height: 10px;
+}
+
+/* CONTACTO*/
